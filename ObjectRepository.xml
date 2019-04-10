@@ -1,0 +1,19 @@
+<walmart>
+	<searchPage>     
+      <searchXpath>//input[@data-automation='search-form-input']</searchXpath>  
+      <searchButtonXpath>//button[@data-automation='search-form-submit']</searchButtonXpath> 
+      <searchResultXpath>//*[@id='thumb-1GJ5OCB8NJM1']/a//h2</searchResultXpath>
+      <titleXpath>//*[@id='thumb-1GJ5OCB8NJM1']/a//h2</titleXpath>
+      <itemOnSearchPageXpath>//article[@id='thumb-1GJ5OCB8NJM1']</itemOnSearchPageXpath>
+    </searchPage>
+    <itemPage>     
+      <imageXpath>//div[@data-automation='image-container']</imageXpath>  
+      <addToCartXpath>//button[@data-automation='cta-button']</addToCartXpath> 
+      <findInStoreXpath>//button[@data-automation='find-in-store']</findInStoreXpath>
+    </itemPage>
+     <cart>     
+      <decreaseQty>//button[@data-automation='decrease-qty']</decreaseQty>
+      <addToCartXpath>//button[@data-automation='cta-button']</addToCartXpath>  
+      <checkoutXpath>//div[@data-automation='atcmodal-cart-count']</checkoutXpath> 
+    </cart>       
+</walmart>

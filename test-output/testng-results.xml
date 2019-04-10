@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15601" started-at="2019-04-10T15:04:20Z" finished-at="2019-04-10T15:04:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15601" started-at="2019-04-10T15:04:20Z" finished-at="2019-04-10T15:04:36Z">
+      <class name="com.walmart.page.TestCaseEngine">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="setUp" is-config="true" duration-ms="7381" started-at="2019-04-10T11:04:20Z" finished-at="2019-04-10T11:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="search_item_main_page()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="search_item_main_page" duration-ms="3358" started-at="2019-04-10T11:04:28Z" finished-at="2019-04-10T11:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_item_main_page -->
+        <test-method status="PASS" signature="click_item_on_search_result()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="click_item_on_search_result" duration-ms="102" started-at="2019-04-10T11:04:31Z" finished-at="2019-04-10T11:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_item_on_search_result -->
+        <test-method status="PASS" signature="check_item_image_displayed()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="check_item_image_displayed" duration-ms="2439" started-at="2019-04-10T11:04:31Z" finished-at="2019-04-10T11:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_item_image_displayed -->
+        <test-method status="PASS" signature="verify_add_to_cart_label()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="verify_add_to_cart_label" duration-ms="28" started-at="2019-04-10T11:04:34Z" finished-at="2019-04-10T11:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_add_to_cart_label -->
+        <test-method status="PASS" signature="validate_find_in_store_label()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="validate_find_in_store_label" duration-ms="26" started-at="2019-04-10T11:04:34Z" finished-at="2019-04-10T11:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_find_in_store_label -->
+        <test-method status="PASS" signature="validate_cart_quantity_not_negative()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="validate_cart_quantity_not_negative" duration-ms="20" started-at="2019-04-10T11:04:34Z" finished-at="2019-04-10T11:04:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_cart_quantity_not_negative -->
+        <test-method status="PASS" signature="add_item_to_cart()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="add_item_to_cart" duration-ms="2113" started-at="2019-04-10T11:04:34Z" finished-at="2019-04-10T11:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_item_to_cart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.walmart.page.TestCaseEngine@482f8f11]" name="tearDown" is-config="true" duration-ms="119" started-at="2019-04-10T11:04:36Z" finished-at="2019-04-10T11:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.walmart.page.TestCaseEngine -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.walmart.page.PageObjectModel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="add_item_to_cart"/>
+          <include name="validate_cart_quantity_not_negative"/>
+          <include name="setUp"/>
+          <include name="validate_find_in_store_label"/>
+          <include name="check_item_image_displayed"/>
+          <include name="verify_add_to_cart_label"/>
+        </methods>
+      </class> <!-- com.walmart.page.PageObjectModel -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
